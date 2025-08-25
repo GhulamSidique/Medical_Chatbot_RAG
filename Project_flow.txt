@@ -1,0 +1,21 @@
+All source code and files will be inside src folder
+Create a virtual environment named as medi_chatbot_rag
+Run requirements.txt file to instaall all dependencies
+
+
+Phase#01 --> setup memory for LLM (vector db)
+. load raw pds
+. creat chunks
+. create vector embeddings
+. store embeddings in FAISS
+. techs --> hugging face, FAISS, LangChain
+
+Phase#02 --> connect memory with LLM
+. setup LLM from hugging face (Mistral)
+. connect memory with LLM
+. create a chain
+
+Phase#03 --> setup ui for the chatbot
+. chatbot with streamlit
+. load vector store FAISS in cache
+. RAG
